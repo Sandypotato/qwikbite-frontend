@@ -7,7 +7,7 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
-  const url = "http://localhost:4000";
+  const url = "https://qwikbite-backend-new.onrender.com";
 
   // 1) token: initially null, then either the stored token or "" if none
   const [token, setToken] = useState(null);
